@@ -1,0 +1,283 @@
+body
+{
+    margin:0;
+    padding:0;
+}
+header
+{
+    padding-bottom: 10px;
+    margin-top:-20px;
+    background-color: yellow;
+}
+.name
+{
+    margin-top: 20px;
+}
+.price
+{
+    margin-top:-40px;
+    font-weight:bolder;
+    color: red;
+}
+.question
+{
+    color:white;
+    background-color: red;
+}
+.price_2
+{
+    text-align: center;
+}
+.feature
+{
+    justify-content: center;
+    margin-top:25px;
+    display: flex;
+    text-align:center;
+}
+.one
+{
+    margin-right:25px;
+}
+.two
+{
+    margin-left: 25px;
+    margin-right: 25px;
+}
+.three
+{
+    margin-left:25px;
+}
+main
+{
+    background-color: rgb(226, 226, 226);
+}
+.centered
+{
+    text-align: center;
+}
+.Product
+{
+    display: flex;
+    justify-content: center;
+}
+.border_1
+{
+    border: 1px solid rgb(0, 0, 0);
+}
+.border_2
+{
+    padding:10px;
+    border: 1px solid rgb(0, 0, 0);
+}
+.shirt_1
+{
+    font-weight:bolder;
+    margin:8px;
+}
+.shirt_2
+{
+    font-weight:bolder;
+    margin: 8px;
+}
+.buy
+{
+    box-shadow:2px 2px 2px rgb(0, 0, 0);
+    border: 1px solid red;
+    border-radius: 3px;
+    color: white;
+    background-color: red;
+}
+.name_3
+{
+    margin-bottom:15px;
+    background-color: rgb(204, 204, 204);
+}
+.shirt_3
+{
+    margin: 8px;
+}
+.stock
+{
+    padding:8px;
+    color: white;
+}
+.promotion
+{
+    box-shadow: 10px 7px 30px 5px black;
+    /* box-shadow: 0px -3px 5px rgba(0, 0, 0, 0.87); */
+    justify-content: space-between;
+    background-color: red;
+    display: flex;
+}
+.image
+{
+    padding:8px;
+}
+.name_4
+{
+    margin-bottom: 10px;
+    font-weight: bolder;
+    margin-top:40px;
+}
+.derf
+{
+    margin-bottom: 10px;
+    padding: 9px;
+    background-color: yellow;
+    font-weight: bolder;
+}
+.basket
+{
+    margin-left: 10px;
+}
+.forma
+{
+    text-align: center;
+    font-weight: bolder;
+}
+.osnova
+{
+    align-items: center;
+    margin-left: 535px;
+    text-align:left
+}
+.one_1
+{
+    min-width: 250px;
+    margin-top:4px;
+    margin-bottom:11px;
+    box-shadow: 1px 1px 8px 1px black;
+    border: 0px;
+    padding: 7px;
+    background-color: rgb(212, 212, 212);
+}
+hr
+{
+    margin-bottom: 15px;
+    margin-left:5px;
+    box-shadow: 1px 1px 4px 0.5px black;
+    min-width:200px;
+    max-width: 250px;
+}
+.zakazz
+{
+    font-weight: bold;
+    font-size: 20px;
+    color: white;
+    margin-left: 39px;
+    border: 2px grey;
+    border-radius: 3px;
+    padding: 7px;
+    background-color: green;
+}
+.kon
+{
+    opacity: 0.5;
+    top: 80%;
+    left: 90%;
+    position: fixed;
+
+}
+.kon:hover
+{
+    opacity: 1;
+}
+.icon
+{
+    position: fixed;
+    opacity: 0.5;
+    display: none;
+}
+.icon:hover
+{
+    opacity: 1;
+}
+
+.hard_1
+{
+    font-size:25px;
+    padding: 15px;
+    color:white;
+    background-color: green;
+}
+.hard_2
+{
+    background-color: white;
+    padding: 10px;
+}
+.hard_3
+{
+    padding: 8px;
+    color:white;
+    background-color: green;
+}
+.shadow
+{
+    animation: showup 1.5s;
+    display: none;
+    left:0%;
+    z-index:1;
+    position: fixed;
+    background-color: rgba(0, 0, 0, 0.582);
+    width:100%;
+    height: 100%;
+}
+.close1:hover
+{
+    cursor: pointer;
+    color: red;
+}
+.close1
+{
+    float: right;
+}
+.footer
+{
+    padding-top: 10px;
+    background-color: rgb(209, 209, 209);
+}
+.stars
+{
+    margin: 15px;
+    justify-content: center;
+    display: flex;
+}
+.ozenka
+{
+    color: #ff7920;
+    margin-top: 10px;
+    font-weight: bolder;
+    text-align: center;
+}
+@keyframes showup {
+    from { opacity:0; }
+    to { opacity:1; }
+}
+@keyframes bnko {
+    from { top: -130px }
+    to { top: 5% }
+}
+@keyframes rainbow {
+    0% { box-shadow: 0px 0px 12px 5px red; }
+    16% { box-shadow: 0px 0px 12px 5px orange; }
+    32% { box-shadow: 0px 0px 12px 5px yellow; }
+    49% { box-shadow: 0px 0px 12px 5px green; }
+    66% { box-shadow: 0px 0px 12px 5px rgb(58, 58, 255); }
+    83% { box-shadow: 0px 0px 12px 5px  rgb(0, 0, 207); }
+    100% { box-shadow: 0px 0px 12px 5px purple; }
+}
+.gred
+{
+    animation: rainbow 2s 2s infinite;
+}
+.bnko
+{
+    animation: bnko 1.5s;
+    top:5%;
+    left:0px;
+    margin-left:10%;
+    width: 80%;
+    position: fixed;
+    z-index:1;
+}
